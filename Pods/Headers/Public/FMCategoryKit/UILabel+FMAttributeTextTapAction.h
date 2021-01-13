@@ -1,0 +1,1 @@
+../../../../MingoKit/FMCategoryKit/FMCategoryKit/FMVendorCategory/UILabel+FMAttributeTextTapAction/UILabel+FMAttributeTextTapAction.h

@@ -1,0 +1,1 @@
+../../../../MingoKit/FMCategoryKit/FMCategoryKit/UIKit/UIDevice/UIDevice+FMInfo.h

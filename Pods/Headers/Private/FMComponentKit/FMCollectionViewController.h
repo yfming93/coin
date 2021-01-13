@@ -1,0 +1,1 @@
+../../../../MingoKit/FMComponentKit/FMComponentKit/FMAssistiveTouch/FMFuncItemManager/FMCollectionViewController.h

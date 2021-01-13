@@ -1,0 +1,1 @@
+../../../../MingoKit/FMCategoryKit/FMCategoryKit/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.h

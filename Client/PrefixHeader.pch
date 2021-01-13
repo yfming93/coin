@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  Client
+//
+//  Created by mingo on 2021/1/5.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AppCoreHeaders.h"
+#import "AppServiceHeaders.h"
+#define kisDebug 1
+
+#endif /* PrefixHeader_pch */

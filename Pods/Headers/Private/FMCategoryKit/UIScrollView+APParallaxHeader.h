@@ -1,0 +1,1 @@
+../../../../MingoKit/FMCategoryKit/FMCategoryKit/UIKit/UIScrollView/UIScrollView+APParallaxHeader.h

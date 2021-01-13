@@ -1,0 +1,1 @@
+../../../../MingoKit/FMCategoryKit/FMCategoryKit/UIKit/UIResponder/UIResponder+UIAdapt.h
