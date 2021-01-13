@@ -14,7 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIView *backBanner;
 @property (nonatomic, strong) SDCycleScrollView *banner;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-proNSMutableArray(dataArray)
+proNSMutableArrayType(FMHomeModel, dataArray)
 
 @end
 
@@ -107,7 +107,6 @@ proNSMutableArray(dataArray)
             [self.dataArray removeAllObjects];
         }
         [self.dataArray addObjectsFromArray:[FMHomeModel mj_objectArrayWithKeyValuesArray:responseObject[@"records"]]];
-        self.dataArray.reverse;
         [self.tableView reloadData];
        
         
@@ -117,6 +116,25 @@ proNSMutableArray(dataArray)
     
 }
 
+- (void)gotoDetail:(NSString *)idd {
+    weakSelf(self)
+    NSString *url = [NSString stringWithFormat:@"http://api.iw010.com/rest/captureInformation/info?id=%@",idd];
+    [FMNetworkingManager fm_getUrl:url params:nil showIndicator:YES showStatusTip:NO successBlock:^(id responseObject, NSInteger code, NSString *msgStr) {
+        
+        NSString *dat = responseObject[@"content"];
+        BAWebViewController *vc = BAWebViewController.new;
+        vc.title = @"详情";
+        vc.ba_web_progressTintColor = UIColor.clearColor;
+        vc.ba_web_progressTrackTintColor = UIColor.clearColor;
+        [vc ba_web_loadHTMLString:dat];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+        
+    } failureBlock:^(NSError *error, id objc) {
+        
+    }];
+}
+
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataArray.count;
@@ -124,6 +142,10 @@ proNSMutableArray(dataArray)
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 160;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    [self gotoDetail:self.dataArray[indexPath.row].id];
 }
 
 

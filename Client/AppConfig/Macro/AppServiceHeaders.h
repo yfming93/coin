@@ -23,6 +23,8 @@
 #import "NSAttributedString+FMExtension.h"
 //#import "UIView+FMSwipe.h"
 #import "UIView+FMTheme.h"
+#import "BAWebViewController.h"
+
 //#import "FMCoinSelectView.h"
 #pragma mark - model 和 viewModel
 

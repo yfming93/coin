@@ -109,6 +109,11 @@
 		DA7980BA25A4B7FC003C28FF /* FMNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7980B825A4B7FC003C28FF /* FMNewsViewController.xib */; };
 		DA7980C125A4B807003C28FF /* FMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7980BF25A4B807003C28FF /* FMMineViewController.m */; };
 		DA7980C225A4B807003C28FF /* FMMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7980C025A4B807003C28FF /* FMMineViewController.xib */; };
+		DA988F5D25AF197100BE313C /* FMNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA988F5C25AF197100BE313C /* FMNewsModel.m */; };
+		DA988F6425AF198F00BE313C /* FMNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA988F6225AF198F00BE313C /* FMNewsTableViewCell.m */; };
+		DA988F6525AF198F00BE313C /* FMNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA988F6325AF198F00BE313C /* FMNewsTableViewCell.xib */; };
+		DA988F8025AF298600BE313C /* WKWebView+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA988F7C25AF298600BE313C /* WKWebView+BAKit.m */; };
+		DA988F8125AF298600BE313C /* BAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA988F7F25AF298600BE313C /* BAWebViewController.m */; };
 		DAF69D5525ADCB8200ADE9E9 /* FMHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF69D5425ADCB8200ADE9E9 /* FMHomeModel.m */; };
 		DAF69DFF25ADE09E00ADE9E9 /* ZFTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF69DF425ADE09E00ADE9E9 /* ZFTableViewCellLayout.m */; };
 		DAF69E0025ADE09E00ADE9E9 /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF69DF525ADE09E00ADE9E9 /* ZFTableData.m */; };
@@ -355,6 +360,15 @@
 		DA7980BE25A4B807003C28FF /* FMMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMineViewController.h; sourceTree = "<group>"; };
 		DA7980BF25A4B807003C28FF /* FMMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMineViewController.m; sourceTree = "<group>"; };
 		DA7980C025A4B807003C28FF /* FMMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMMineViewController.xib; sourceTree = "<group>"; };
+		DA988F5B25AF197100BE313C /* FMNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMNewsModel.h; sourceTree = "<group>"; };
+		DA988F5C25AF197100BE313C /* FMNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMNewsModel.m; sourceTree = "<group>"; };
+		DA988F6125AF198F00BE313C /* FMNewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMNewsTableViewCell.h; sourceTree = "<group>"; };
+		DA988F6225AF198F00BE313C /* FMNewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMNewsTableViewCell.m; sourceTree = "<group>"; };
+		DA988F6325AF198F00BE313C /* FMNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMNewsTableViewCell.xib; sourceTree = "<group>"; };
+		DA988F7C25AF298600BE313C /* WKWebView+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+BAKit.m"; sourceTree = "<group>"; };
+		DA988F7D25AF298600BE313C /* BAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWebViewController.h; sourceTree = "<group>"; };
+		DA988F7E25AF298600BE313C /* WKWebView+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+BAKit.h"; sourceTree = "<group>"; };
+		DA988F7F25AF298600BE313C /* BAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAWebViewController.m; sourceTree = "<group>"; };
 		DAF69D5325ADCB8100ADE9E9 /* FMHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHomeModel.h; sourceTree = "<group>"; };
 		DAF69D5425ADCB8200ADE9E9 /* FMHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHomeModel.m; sourceTree = "<group>"; };
 		DAF69DF325ADE09E00ADE9E9 /* ZFNotAutoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFNotAutoPlayViewController.h; sourceTree = "<group>"; };
@@ -436,6 +450,7 @@
 		DA797EE425A4B141003C28FF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DA988F7B25AF298600BE313C /* FMWebViewKit */,
 				DA797EE625A4B141003C28FF /* FMBase */,
 				DA797F0025A4B141003C28FF /* Expand */,
 				DA797F2525A4B141003C28FF /* Tools */,
@@ -1023,6 +1038,11 @@
 				DA7980B625A4B7FC003C28FF /* FMNewsViewController.h */,
 				DA7980B725A4B7FC003C28FF /* FMNewsViewController.m */,
 				DA7980B825A4B7FC003C28FF /* FMNewsViewController.xib */,
+				DA988F5B25AF197100BE313C /* FMNewsModel.h */,
+				DA988F5C25AF197100BE313C /* FMNewsModel.m */,
+				DA988F6125AF198F00BE313C /* FMNewsTableViewCell.h */,
+				DA988F6225AF198F00BE313C /* FMNewsTableViewCell.m */,
+				DA988F6325AF198F00BE313C /* FMNewsTableViewCell.xib */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -1035,6 +1055,17 @@
 				DA7980C025A4B807003C28FF /* FMMineViewController.xib */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		DA988F7B25AF298600BE313C /* FMWebViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA988F7D25AF298600BE313C /* BAWebViewController.h */,
+				DA988F7F25AF298600BE313C /* BAWebViewController.m */,
+				DA988F7E25AF298600BE313C /* WKWebView+BAKit.h */,
+				DA988F7C25AF298600BE313C /* WKWebView+BAKit.m */,
+			);
+			path = FMWebViewKit;
 			sourceTree = "<group>";
 		};
 		DAF69DF225ADE09E00ADE9E9 /* Player */ = {
@@ -1244,6 +1275,7 @@
 				DA7980C225A4B807003C28FF /* FMMineViewController.xib in Resources */,
 				DA79800E25A4B142003C28FF /* mss_browseLoading@3x.png in Resources */,
 				DA79801025A4B142003C28FF /* mss_browseLoading@2x.png in Resources */,
+				DA988F6525AF198F00BE313C /* FMNewsTableViewCell.xib in Resources */,
 				DA79802825A4B142003C28FF /* arrow_up@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1311,6 +1343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA988F5D25AF197100BE313C /* FMNewsModel.m in Sources */,
 				DA79802325A4B142003C28FF /* SDPhotoBrowser.m in Sources */,
 				DAF69D5525ADCB8200ADE9E9 /* FMHomeModel.m in Sources */,
 				DA797FEB25A4B142003C28FF /* EasyShowAlertView.m in Sources */,
@@ -1344,6 +1377,7 @@
 				DA797FED25A4B142003C28FF /* MJRefresh+FooterManger.m in Sources */,
 				DA797FDA25A4B142003C28FF /* FMBaseTableViewCell.m in Sources */,
 				DA79800A25A4B142003C28FF /* UIImage+MSSScale.m in Sources */,
+				DA988F8025AF298600BE313C /* WKWebView+BAKit.m in Sources */,
 				DA797FEA25A4B142003C28FF /* EasyShowOptions.m in Sources */,
 				DA79800925A4B142003C28FF /* MSSBrowseNetworkViewController.m in Sources */,
 				DA79801325A4B142003C28FF /* FMLeftSlideBaseView.m in Sources */,
@@ -1351,6 +1385,7 @@
 				DA79803325A4B142003C28FF /* FMDiskConfigUtill.m in Sources */,
 				DA79802A25A4B142003C28FF /* FMHeaderSegeView.m in Sources */,
 				DA797FEC25A4B142003C28FF /* JPFPSStatus.m in Sources */,
+				DA988F8125AF298600BE313C /* BAWebViewController.m in Sources */,
 				DAFE710125A4A4A90057EED2 /* AppDelegate.m in Sources */,
 				DA797FE625A4B142003C28FF /* EasyShowTypes.m in Sources */,
 				DA797FDF25A4B142003C28FF /* FMBaseCollectionView.m in Sources */,
@@ -1409,6 +1444,7 @@
 				DA79802B25A4B142003C28FF /* SPAlertController.m in Sources */,
 				DA797FDB25A4B142003C28FF /* FMBaseViewController.m in Sources */,
 				DA797FEE25A4B142003C28FF /* NSArray+Sudoku.m in Sources */,
+				DA988F6425AF198F00BE313C /* FMNewsTableViewCell.m in Sources */,
 				DA79801C25A4B142003C28FF /* JinnLockTool.m in Sources */,
 				DA79802E25A4B142003C28FF /* FMRightSlideBaseView.m in Sources */,
 				DA79800425A4B142003C28FF /* MSSBrowseLoadingImageView.m in Sources */,

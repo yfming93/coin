@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FMHomeModel : FMBaseModel
 proNSString(thumbnailUrl)
+proNSString(id)
 proNSString(createTime)
 proNSString(auth)
 proNSString(authAvatar)
