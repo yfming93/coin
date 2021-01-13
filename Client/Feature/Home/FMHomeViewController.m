@@ -107,6 +107,12 @@ proNSMutableArrayType(FMHomeModel, dataArray)
             [self.dataArray removeAllObjects];
         }
         [self.dataArray addObjectsFromArray:[FMHomeModel mj_objectArrayWithKeyValuesArray:responseObject[@"records"]]];
+    
+        for (FMHomeModel *mo in self.dataArray.copy) {
+            if (mo.auth.length == 0 || mo.createTime.length == 0) {
+                [self.dataArray removeObject:mo];
+            }
+        }
         [self.tableView reloadData];
        
         

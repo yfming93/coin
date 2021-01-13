@@ -6,8 +6,13 @@
 //
 
 #import "FMMineViewController.h"
+#import "FMAboutViewController.h"
 
 @interface FMMineViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *btn01;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn02;
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
 
 @end
 
@@ -15,7 +20,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    [[_btn01 rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        [FMCoreTools fm_showHudText:@"清除成功！"];
+    }];
+    [[_btn02 rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        FMAboutViewController *vc =FMAboutViewController.new;
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
+    [[_btnLogin rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        [FMCoreTools fm_showHudText:@"清除成功！"];
+    }];
 }
 
 /*

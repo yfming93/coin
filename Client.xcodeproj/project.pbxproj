@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		732E101FA0815A04E65D841E /* libPods-Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A71B742F80C9446C621273 /* libPods-Client.a */; };
+		DA1445CD25AF382500D60A6C /* FMAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1445CB25AF382500D60A6C /* FMAboutViewController.m */; };
+		DA1445CE25AF382500D60A6C /* FMAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1445CC25AF382500D60A6C /* FMAboutViewController.xib */; };
 		DA2AC08125A74ADA008B1847 /* FMHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2AC07F25A74ADA008B1847 /* FMHomeTableViewCell.m */; };
 		DA2AC08225A74ADA008B1847 /* FMHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2AC08025A74ADA008B1847 /* FMHomeTableViewCell.xib */; };
 		DA797FD525A4B142003C28FF /* FMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797EE325A4B141003C28FF /* FMTabBarController.m */; };
@@ -154,6 +156,9 @@
 		0EED6729D4CE23781C7CBFDD /* Pods-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client.release.xcconfig"; path = "Target Support Files/Pods-Client/Pods-Client.release.xcconfig"; sourceTree = "<group>"; };
 		13A71B742F80C9446C621273 /* libPods-Client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7E975A92249F999D94B0A6 /* Pods-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client.debug.xcconfig"; path = "Target Support Files/Pods-Client/Pods-Client.debug.xcconfig"; sourceTree = "<group>"; };
+		DA1445CA25AF382500D60A6C /* FMAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAboutViewController.h; sourceTree = "<group>"; };
+		DA1445CB25AF382500D60A6C /* FMAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAboutViewController.m; sourceTree = "<group>"; };
+		DA1445CC25AF382500D60A6C /* FMAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMAboutViewController.xib; sourceTree = "<group>"; };
 		DA2AC07E25A74ADA008B1847 /* FMHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHomeTableViewCell.h; sourceTree = "<group>"; };
 		DA2AC07F25A74ADA008B1847 /* FMHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHomeTableViewCell.m; sourceTree = "<group>"; };
 		DA2AC08025A74ADA008B1847 /* FMHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMHomeTableViewCell.xib; sourceTree = "<group>"; };
@@ -1053,6 +1058,9 @@
 				DA7980BE25A4B807003C28FF /* FMMineViewController.h */,
 				DA7980BF25A4B807003C28FF /* FMMineViewController.m */,
 				DA7980C025A4B807003C28FF /* FMMineViewController.xib */,
+				DA1445CA25AF382500D60A6C /* FMAboutViewController.h */,
+				DA1445CB25AF382500D60A6C /* FMAboutViewController.m */,
+				DA1445CC25AF382500D60A6C /* FMAboutViewController.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -1269,6 +1277,7 @@
 				DA79800025A4B142003C28FF /* LCActionSheet.bundle in Resources */,
 				DA7980A425A4B7D1003C28FF /* FMHomeViewController.xib in Resources */,
 				DA7980AF25A4B7F0003C28FF /* FMMarketViewController.xib in Resources */,
+				DA1445CE25AF382500D60A6C /* FMAboutViewController.xib in Resources */,
 				DA2AC08225A74ADA008B1847 /* FMHomeTableViewCell.xib in Resources */,
 				DAFE710A25A4A4A90057EED2 /* Main.storyboard in Resources */,
 				DA7980BA25A4B7FC003C28FF /* FMNewsViewController.xib in Resources */,
@@ -1431,6 +1440,7 @@
 				DA797FD825A4B142003C28FF /* FMBaseObject.m in Sources */,
 				DA79802125A4B142003C28FF /* OYCountDownManager.m in Sources */,
 				DA797FFE25A4B142003C28FF /* UIView+Banner.m in Sources */,
+				DA1445CD25AF382500D60A6C /* FMAboutViewController.m in Sources */,
 				DA79802025A4B142003C28FF /* YCMenuView.m in Sources */,
 				DA797FF725A4B142003C28FF /* FMCoreTools.m in Sources */,
 				DA797FFA25A4B142003C28FF /* FileTool.m in Sources */,

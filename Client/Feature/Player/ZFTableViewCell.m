@@ -57,7 +57,7 @@
     self.playBtn.frame = layout.playBtnRect;
 //    self.fullMaskView.frame = layout.maskViewRect;
     
-    [self.headImageView setImageWithURLString:layout.data.head placeholder:[UIImage imageNamed:@"defaultUserIcon"]];
+    [self.headImageView setImageWithURLString:layout.data.head placeholder:[UIImage imageNamed:@"pic_zwt"]];
     [self.coverImageView setImageWithURLString:layout.data.thumbnail_url placeholder:[UIImage imageNamed:@"loading_bgView"]];
     [self.bgImgView setImageWithURLString:layout.data.thumbnail_url placeholder:[UIImage imageNamed:@"loading_bgView"]];
     self.nickNameLabel.text = layout.data.nick_name;
