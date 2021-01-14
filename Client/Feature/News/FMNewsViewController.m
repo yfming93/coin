@@ -126,11 +126,11 @@ proNSMutableArrayType(FMNewsModel, dataArray)
         NSString *dat = responseObject[@"content"];
         BAWebViewController *vc = BAWebViewController.new;
         vc.title = @"详情";
-        vc.view.height -= kNavBarH;
-        vc.view.height -= kTabbarH;
         vc.ba_web_progressTintColor = UIColor.clearColor;
         vc.ba_web_progressTrackTintColor = UIColor.clearColor;
-        [vc ba_web_loadHTMLString:dat];
+        NSString *headerString = @"<header><meta name='viewport' content='width=device-width, initial-scale=0.7, maximum-scale=0.7, minimum-scale=0.7, user-scalable=no'><style>img{max-width:100%}</style></header>";
+        NSString *str = [headerString stringByAppendingString:dat];
+        [vc ba_web_loadHTMLString:str];
         [self.navigationController pushViewController:vc animated:YES];
         
         

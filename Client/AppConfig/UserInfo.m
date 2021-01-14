@@ -41,6 +41,13 @@
     return _arrHistory;
 }
 
+-(NSMutableDictionary *)dic {
+    if (!_dic) {
+        _dic = [NSMutableDictionary.alloc  init];
+    }
+    return _dic;
+}
+
 /// 左边是当前obj对象属性。右边是\\请求字典属性
 + (NSDictionary *)mj_replacedKeyFromPropertyName {
     return @{

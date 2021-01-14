@@ -60,7 +60,8 @@ proNSString(evAvailable)
 @interface UserInfo : FMBaseModel<NSCoding>
 @property (nonatomic, strong) account *account;
 @property (nonatomic, strong) User *user;
-proNSMutableArrayType(NSString, arrHistory)
+proNSMutableArrayType(NSDictionary, arrHistory)
+proStrongType(NSMutableDictionary, dic)
 proNSString(token)
 proNSString(authorization)
 

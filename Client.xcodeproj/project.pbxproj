@@ -10,6 +10,13 @@
 		732E101FA0815A04E65D841E /* libPods-Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A71B742F80C9446C621273 /* libPods-Client.a */; };
 		DA1445CD25AF382500D60A6C /* FMAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1445CB25AF382500D60A6C /* FMAboutViewController.m */; };
 		DA1445CE25AF382500D60A6C /* FMAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1445CC25AF382500D60A6C /* FMAboutViewController.xib */; };
+		DA1AA94D25B08DCD000C660E /* FMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1AA94B25B08DCD000C660E /* FMRegisterViewController.m */; };
+		DA1AA94E25B08DCD000C660E /* FMRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AA94C25B08DCD000C660E /* FMRegisterViewController.xib */; };
+		DA1AA95825B09373000C660E /* FMAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AA95425B09373000C660E /* FMAlertView.xib */; };
+		DA1AA95925B09373000C660E /* FMAlertSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1AA95625B09373000C660E /* FMAlertSheetView.m */; };
+		DA1AA95A25B09373000C660E /* FMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1AA95725B09373000C660E /* FMAlertView.m */; };
+		DA20081825B07B4A0059C251 /* FMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA20081625B07B4A0059C251 /* FMLoginViewController.m */; };
+		DA20081925B07B4A0059C251 /* FMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA20081725B07B4A0059C251 /* FMLoginViewController.xib */; };
 		DA2AC08125A74ADA008B1847 /* FMHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2AC07F25A74ADA008B1847 /* FMHomeTableViewCell.m */; };
 		DA2AC08225A74ADA008B1847 /* FMHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2AC08025A74ADA008B1847 /* FMHomeTableViewCell.xib */; };
 		DA797FD525A4B142003C28FF /* FMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797EE325A4B141003C28FF /* FMTabBarController.m */; };
@@ -159,6 +166,17 @@
 		DA1445CA25AF382500D60A6C /* FMAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAboutViewController.h; sourceTree = "<group>"; };
 		DA1445CB25AF382500D60A6C /* FMAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAboutViewController.m; sourceTree = "<group>"; };
 		DA1445CC25AF382500D60A6C /* FMAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMAboutViewController.xib; sourceTree = "<group>"; };
+		DA1AA94A25B08DCD000C660E /* FMRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMRegisterViewController.h; sourceTree = "<group>"; };
+		DA1AA94B25B08DCD000C660E /* FMRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMRegisterViewController.m; sourceTree = "<group>"; };
+		DA1AA94C25B08DCD000C660E /* FMRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMRegisterViewController.xib; sourceTree = "<group>"; };
+		DA1AA95325B09373000C660E /* FMAlertSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAlertSheetView.h; sourceTree = "<group>"; };
+		DA1AA95425B09373000C660E /* FMAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMAlertView.xib; sourceTree = "<group>"; };
+		DA1AA95525B09373000C660E /* FMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAlertView.h; sourceTree = "<group>"; };
+		DA1AA95625B09373000C660E /* FMAlertSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAlertSheetView.m; sourceTree = "<group>"; };
+		DA1AA95725B09373000C660E /* FMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAlertView.m; sourceTree = "<group>"; };
+		DA20081525B07B4A0059C251 /* FMLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLoginViewController.h; sourceTree = "<group>"; };
+		DA20081625B07B4A0059C251 /* FMLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLoginViewController.m; sourceTree = "<group>"; };
+		DA20081725B07B4A0059C251 /* FMLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMLoginViewController.xib; sourceTree = "<group>"; };
 		DA2AC07E25A74ADA008B1847 /* FMHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHomeTableViewCell.h; sourceTree = "<group>"; };
 		DA2AC07F25A74ADA008B1847 /* FMHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHomeTableViewCell.m; sourceTree = "<group>"; };
 		DA2AC08025A74ADA008B1847 /* FMHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMHomeTableViewCell.xib; sourceTree = "<group>"; };
@@ -443,6 +461,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DA1AA95225B09373000C660E /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				DA1AA95325B09373000C660E /* FMAlertSheetView.h */,
+				DA1AA95425B09373000C660E /* FMAlertView.xib */,
+				DA1AA95525B09373000C660E /* FMAlertView.h */,
+				DA1AA95625B09373000C660E /* FMAlertSheetView.m */,
+				DA1AA95725B09373000C660E /* FMAlertView.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		DA20081D25B088B70059C251 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DA20081525B07B4A0059C251 /* FMLoginViewController.h */,
+				DA20081625B07B4A0059C251 /* FMLoginViewController.m */,
+				DA20081725B07B4A0059C251 /* FMLoginViewController.xib */,
+				DA1AA94A25B08DCD000C660E /* FMRegisterViewController.h */,
+				DA1AA94B25B08DCD000C660E /* FMRegisterViewController.m */,
+				DA1AA94C25B08DCD000C660E /* FMRegisterViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		DA797EE125A4B141003C28FF /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -666,6 +709,7 @@
 		DA797F4225A4B141003C28FF /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				DA1AA95225B09373000C660E /* Alert */,
 				DA797F4325A4B141003C28FF /* HW3DBannerView */,
 				DA797F4A25A4B141003C28FF /* StretchHeaderTB */,
 				DA797F4D25A4B141003C28FF /* ActionSheet */,
@@ -1003,6 +1047,7 @@
 		DA79809B25A4B770003C28FF /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				DA20081D25B088B70059C251 /* Login */,
 				DAF69DF225ADE09E00ADE9E9 /* Player */,
 				DA79809F25A4B79F003C28FF /* Mine */,
 				DA79809E25A4B798003C28FF /* News */,
@@ -1274,7 +1319,9 @@
 				DAF69F4B25ADEA7600ADE9E9 /* data.json in Resources */,
 				DAFE710F25A4A4A90057EED2 /* Assets.xcassets in Resources */,
 				DA79803025A4B142003C28FF /* Mbrx.xcassets in Resources */,
+				DA1AA94E25B08DCD000C660E /* FMRegisterViewController.xib in Resources */,
 				DA79800025A4B142003C28FF /* LCActionSheet.bundle in Resources */,
+				DA1AA95825B09373000C660E /* FMAlertView.xib in Resources */,
 				DA7980A425A4B7D1003C28FF /* FMHomeViewController.xib in Resources */,
 				DA7980AF25A4B7F0003C28FF /* FMMarketViewController.xib in Resources */,
 				DA1445CE25AF382500D60A6C /* FMAboutViewController.xib in Resources */,
@@ -1286,6 +1333,7 @@
 				DA79801025A4B142003C28FF /* mss_browseLoading@2x.png in Resources */,
 				DA988F6525AF198F00BE313C /* FMNewsTableViewCell.xib in Resources */,
 				DA79802825A4B142003C28FF /* arrow_up@2x.png in Resources */,
+				DA20081925B07B4A0059C251 /* FMLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1397,6 +1445,7 @@
 				DA988F8125AF298600BE313C /* BAWebViewController.m in Sources */,
 				DAFE710125A4A4A90057EED2 /* AppDelegate.m in Sources */,
 				DA797FE625A4B142003C28FF /* EasyShowTypes.m in Sources */,
+				DA20081825B07B4A0059C251 /* FMLoginViewController.m in Sources */,
 				DA797FDF25A4B142003C28FF /* FMBaseCollectionView.m in Sources */,
 				DAF69E0025ADE09E00ADE9E9 /* ZFTableData.m in Sources */,
 				DA79803225A4B142003C28FF /* Setting.m in Sources */,
@@ -1410,6 +1459,7 @@
 				DA2AC08125A74ADA008B1847 /* FMHomeTableViewCell.m in Sources */,
 				DA79800725A4B142003C28FF /* MSSBrowseModel.m in Sources */,
 				DA79802925A4B142003C28FF /* HWDownSelectedView.m in Sources */,
+				DA1AA94D25B08DCD000C660E /* FMRegisterViewController.m in Sources */,
 				DAFE710D25A4A4A90057EED2 /* Client.xcdatamodeld in Sources */,
 				DA79801525A4B142003C28FF /* XLPageSegmentedTitleView.m in Sources */,
 				DA79800325A4B142003C28FF /* QRcodeViewController.m in Sources */,
@@ -1430,6 +1480,7 @@
 				DA79802225A4B142003C28FF /* SegmentViewController.m in Sources */,
 				DA79801925A4B142003C28FF /* XLPageViewControllerUtil.m in Sources */,
 				DA79801F25A4B142003C28FF /* JinnLockCircle.m in Sources */,
+				DA1AA95A25B09373000C660E /* FMAlertView.m in Sources */,
 				DA79800625A4B142003C28FF /* MSSBrowseCollectionViewCell.m in Sources */,
 				DA797FE025A4B142003C28FF /* FMBaseCollectionViewCell.m in Sources */,
 				DA797FEF25A4B142003C28FF /* Foundation+Log.m in Sources */,
@@ -1446,6 +1497,7 @@
 				DA797FFA25A4B142003C28FF /* FileTool.m in Sources */,
 				DA79800525A4B142003C28FF /* MSSBrowseLocalViewController.m in Sources */,
 				DA79800C25A4B142003C28FF /* MSSBrowseZoomScrollView.m in Sources */,
+				DA1AA95925B09373000C660E /* FMAlertSheetView.m in Sources */,
 				DA797FD925A4B142003C28FF /* FMBaseButton.m in Sources */,
 				DA79801B25A4B142003C28FF /* JinnLockSudoko.m in Sources */,
 				DA797FD725A4B142003C28FF /* FMBaseModel.m in Sources */,
@@ -1633,7 +1685,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U5RW77A3PB;
+				DEVELOPMENT_TEAM = XDL763DT9K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Client/Classes",
@@ -1645,7 +1697,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.migo.client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1660,7 +1712,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U5RW77A3PB;
+				DEVELOPMENT_TEAM = XDL763DT9K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Client/Classes",
@@ -1672,7 +1724,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.migo.client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

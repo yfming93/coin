@@ -11,7 +11,8 @@ target 'Client' do
     pod 'FMBaseKit', :path => './MingoKit/FMBaseKit'
     pod 'FMComponentKit', :path => './MingoKit/FMComponentKit'
     pod 'FMNetworking', :git => 'https://github.com/yfming93/FMNetworking.git'
-    
+    pod 'ZJAnimationPopView', '~> 1.0.2'
+
 #    pod 'JLLogEncoding'
 #    pod 'XHWebImageAutoSize', '~> 1.1.2'
 #    pod 'SKAutoScrollLabel', '~> 0.0.4'
