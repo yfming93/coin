@@ -320,19 +320,45 @@
 
 // MARK: - 回复事件
 - (void)moreBtnSubViewHuiFuResCell:(XtayCircleTableViewCell *)cell {
-    NSIndexPath *indexPath = [_listTableView indexPathForCell:cell];
-    if (_lastSelctedIndex >= 0) {
-        [self showOrHideMoreBtnViewWithIndexPath:[NSIndexPath indexPathForRow:_lastSelctedIndex inSection:0] isMoreViewShow:NO];
-        self.lastSelctedIndex = -1;
-    }
-    XtayCircleModel *currentModel = self.mDataMArray[_commentIndex];
-    self.isNeedInput = YES;
-    self.commentIndex = indexPath.row;
-    self.currentCommentModel = [[XtayCircleCommentModel alloc] init];
-    _currentCommentModel.from = MY_SELF_NAME;
-    _currentCommentModel.to = @"";
-    self.commentInputView.placeHolder = [NSString stringWithFormat:@"回复%@", currentModel.name];
-    [self.commentInputView beginShowInputView];
+//    NSIndexPath *indexPath = [_listTableView indexPathForCell:cell];
+//    if (_lastSelctedIndex >= 0) {
+//        [self showOrHideMoreBtnViewWithIndexPath:[NSIndexPath indexPathForRow:_lastSelctedIndex inSection:0] isMoreViewShow:NO];
+//        self.lastSelctedIndex = -1;
+//    }
+//    XtayCircleModel *currentModel = self.mDataMArray[_commentIndex];
+//    self.isNeedInput = YES;
+//    self.commentIndex = indexPath.row;
+//    self.currentCommentModel = [[XtayCircleCommentModel alloc] init];
+//    _currentCommentModel.from = MY_SELF_NAME;
+//    _currentCommentModel.to = @"";
+//    self.commentInputView.placeHolder = [NSString stringWithFormat:@"回复%@", currentModel.name];
+//    [self.commentInputView beginShowInputView];
+    [self fm_showAlertSheet];
+
+}
+
+- (void)fm_showAlertSheet {
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:@"您要举报恶意内容吗？" preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"暴力内容" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        [FMCoreTools fm_showHudText:@"举报成功！"];
+    }];
+    UIAlertAction *action3 = [UIAlertAction actionWithTitle:@"辱骂内容" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        [FMCoreTools fm_showHudText:@"举报成功！"];
+    }];
+    UIAlertAction *action4 = [UIAlertAction actionWithTitle:@"低俗内容" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        [FMCoreTools fm_showHudText:@"举报成功！"];
+    }];
+    UIAlertAction *action5 = [UIAlertAction actionWithTitle:@"色情内容" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        [FMCoreTools fm_showHudText:@"举报成功！"];
+        
+    }];
+    UIAlertAction *action2 = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {}];
+    [actionSheet addAction:action1];
+    [actionSheet addAction:action3];
+    [actionSheet addAction:action4];
+    [actionSheet addAction:action5];
+    [actionSheet addAction:action2];
+    [self presentViewController:actionSheet animated:YES completion:nil];
 }
      
 //MARK: - 完成编辑点击事件
