@@ -53,6 +53,7 @@
 #import "Setting.h"
 #import "FMDiskConfigUtill.h"
 #import "UserInfo.h"
+#import "ClubHeader.h"
 //#import "FMFuncItemManager.h"
 //#import "NSString+FMEqualToStr.h"
 

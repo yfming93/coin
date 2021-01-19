@@ -66,7 +66,7 @@
     {
         _snapshotView = [rootViewController.view snapshotViewAfterScreenUpdates:NO];
     }
-    [rootViewController presentViewController:self animated:NO completion:^{
+    [rootViewController.tabBarController presentViewController:self animated:NO completion:^{
         
     }];
 }

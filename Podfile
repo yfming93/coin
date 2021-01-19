@@ -12,6 +12,7 @@ target 'Client' do
     pod 'FMComponentKit', :path => './MingoKit/FMComponentKit'
     pod 'FMNetworking', :git => 'https://github.com/yfming93/FMNetworking.git'
     pod 'ZJAnimationPopView', '~> 1.0.2'
+#    pod 'MWPhotoBrowser'
 
 #    pod 'JLLogEncoding'
 #    pod 'XHWebImageAutoSize', '~> 1.1.2'
@@ -31,7 +32,7 @@ target 'Client' do
 #    pod 'JLRoutes', '~> 2.1'
 #    pod 'TZImagePickerController', '~> 1.9.7'#相册
     pod 'MJExtension'
-    pod 'SDCycleScrollView','~> 1.73'
+    pod 'SDCycleScrollView','~> 1.5'
     pod 'YYModel', '~> 1.0.4'
     pod 'YYCache', '~> 1.0.4'
     pod 'FDFullscreenPopGesture', '~> 1.1'

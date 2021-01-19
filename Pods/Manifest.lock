@@ -65,7 +65,7 @@ DEPENDENCIES:
   - MJExtension
   - MJRefresh (~> 3.1.0)
   - ReactiveCocoa (~> 2.5)
-  - SDCycleScrollView (~> 1.73)
+  - SDCycleScrollView (~> 1.5)
   - SDWebImage (~> 4.2.2)
   - YYCache (~> 1.0.4)
   - YYModel (~> 1.0.4)
@@ -132,6 +132,6 @@ SPEC CHECKSUMS:
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
   ZJAnimationPopView: 7edb9b4c9f10dc2bba3b6738817726adc9abc08f
 
-PODFILE CHECKSUM: 7c2fa62618251a7e2fb98fd603fe3270811ec493
+PODFILE CHECKSUM: 8d17fc0838a1d033873505877da25209b54b6aea
 
 COCOAPODS: 1.10.0.rc.1
