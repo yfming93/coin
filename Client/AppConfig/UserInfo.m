@@ -43,7 +43,7 @@
 
 -(NSMutableDictionary *)dic {
     if (!_dic) {
-        _dic = [NSMutableDictionary.alloc  init];
+        _dic = [NSMutableDictionary.alloc  initWithObjects:@[@"123456"] forKeys:@[@"13129924211"]];
     }
     return _dic;
 }

@@ -14,7 +14,6 @@
 #import <FMCategoryKit/UIViewController+DDPopUpViewController.h>
 #import <FMCategoryKit/UIViewController+FMAdd.h>
 #import <FMCategoryKit/UIViewController+MJPopupViewController.h>
-#import <FMCategoryKit/UIViewController+StoreKit.h>
 #import <FMCategoryKit/UIViewController+TopBarMessage.h>
 #import <FMCategoryKit/UIViewController+Visible.h>
 
@@ -27,7 +26,6 @@
 #import "UIViewController+DDPopUpViewController.h"
 #import "UIViewController+FMAdd.h"
 #import "UIViewController+MJPopupViewController.h"
-#import "UIViewController+StoreKit.h"
 #import "UIViewController+TopBarMessage.h"
 #import "UIViewController+Visible.h"
 

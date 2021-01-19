@@ -25,7 +25,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[_btn01 rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
-        [FMCoreTools fm_showHudText:@"清除成功！"];
+        FMAlertView *alert = [[NSBundle mainBundle]loadNibNamed:NSStringFromClass(FMAlertView.class) owner:nil options:nil].firstObject;;
+        [alert fm_title:@"清除缓存" tip:@"您确定要清除缓存吗？" subtip:nil cancelBlock:^(id  _Nonnull objc) {
+        } sureBlock:^(id  _Nonnull objc) {
+            [FMCoreTools fm_showHudLoadingIndicator];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [FMCoreTools fm_hidenHudIndicator];
+                [FMCoreTools fm_showHudText:@"清除成功！"];
+
+            });
+        
+        }];
+        alert.show = YES;
     }];
     [[_btn02 rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         FMAboutViewController *vc =FMAboutViewController.new;

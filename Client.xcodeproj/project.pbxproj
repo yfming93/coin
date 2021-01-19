@@ -49,7 +49,6 @@
 		DA797FF125A4B142003C28FF /* FSAES128.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F2925A4B141003C28FF /* FSAES128.m */; };
 		DA797FF225A4B142003C28FF /* DESUtills.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F2B25A4B141003C28FF /* DESUtills.m */; };
 		DA797FF325A4B142003C28FF /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F2D25A4B141003C28FF /* NSData+AES128.m */; };
-		DA797FF425A4B142003C28FF /* AuthorizationUtills.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F3025A4B141003C28FF /* AuthorizationUtills.m */; };
 		DA797FF625A4B142003C28FF /* GetImgBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F3325A4B141003C28FF /* GetImgBase64String.m */; };
 		DA797FF725A4B142003C28FF /* FMCoreTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F3625A4B141003C28FF /* FMCoreTools.m */; };
 		DA797FF925A4B142003C28FF /* AttributedStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F3B25A4B141003C28FF /* AttributedStringTool.m */; };
@@ -85,11 +84,6 @@
 		DA79801725A4B142003C28FF /* XLPageViewControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F7D25A4B141003C28FF /* XLPageViewControllerConfig.m */; };
 		DA79801825A4B142003C28FF /* XLPageTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F8325A4B142003C28FF /* XLPageTitleCell.m */; };
 		DA79801925A4B142003C28FF /* XLPageViewControllerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F8425A4B142003C28FF /* XLPageViewControllerUtil.m */; };
-		DA79801B25A4B142003C28FF /* JinnLockSudoko.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F8B25A4B142003C28FF /* JinnLockSudoko.m */; };
-		DA79801C25A4B142003C28FF /* JinnLockTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F8C25A4B142003C28FF /* JinnLockTool.m */; };
-		DA79801D25A4B142003C28FF /* JinnLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F8E25A4B142003C28FF /* JinnLockViewController.m */; };
-		DA79801E25A4B142003C28FF /* JinnLockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F9125A4B142003C28FF /* JinnLockIndicator.m */; };
-		DA79801F25A4B142003C28FF /* JinnLockCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F9425A4B142003C28FF /* JinnLockCircle.m */; };
 		DA79802025A4B142003C28FF /* YCMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F9725A4B142003C28FF /* YCMenuView.m */; };
 		DA79802125A4B142003C28FF /* OYCountDownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F9925A4B142003C28FF /* OYCountDownManager.m */; };
 		DA79802225A4B142003C28FF /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797F9C25A4B142003C28FF /* SegmentViewController.m */; };
@@ -244,8 +238,6 @@
 		DA797F2B25A4B141003C28FF /* DESUtills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtills.m; sourceTree = "<group>"; };
 		DA797F2C25A4B141003C28FF /* FSAES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAES128.h; sourceTree = "<group>"; };
 		DA797F2D25A4B141003C28FF /* NSData+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
-		DA797F2F25A4B141003C28FF /* AuthorizationUtills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationUtills.h; sourceTree = "<group>"; };
-		DA797F3025A4B141003C28FF /* AuthorizationUtills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationUtills.m; sourceTree = "<group>"; };
 		DA797F3325A4B141003C28FF /* GetImgBase64String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetImgBase64String.m; sourceTree = "<group>"; };
 		DA797F3425A4B141003C28FF /* GetImgBase64String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetImgBase64String.h; sourceTree = "<group>"; };
 		DA797F3625A4B141003C28FF /* FMCoreTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMCoreTools.m; sourceTree = "<group>"; };
@@ -313,17 +305,6 @@
 		DA797F8325A4B142003C28FF /* XLPageTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPageTitleCell.m; sourceTree = "<group>"; };
 		DA797F8425A4B142003C28FF /* XLPageViewControllerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPageViewControllerUtil.m; sourceTree = "<group>"; };
 		DA797F8525A4B142003C28FF /* XLPageViewControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPageViewControllerConfig.h; sourceTree = "<group>"; };
-		DA797F8A25A4B142003C28FF /* JinnLockIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinnLockIndicator.h; sourceTree = "<group>"; };
-		DA797F8B25A4B142003C28FF /* JinnLockSudoko.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinnLockSudoko.m; sourceTree = "<group>"; };
-		DA797F8C25A4B142003C28FF /* JinnLockTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinnLockTool.m; sourceTree = "<group>"; };
-		DA797F8D25A4B142003C28FF /* JinnLockCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinnLockCircle.h; sourceTree = "<group>"; };
-		DA797F8E25A4B142003C28FF /* JinnLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinnLockViewController.m; sourceTree = "<group>"; };
-		DA797F8F25A4B142003C28FF /* JinnLockConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinnLockConfig.h; sourceTree = "<group>"; };
-		DA797F9025A4B142003C28FF /* JinnLockSudoko.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinnLockSudoko.h; sourceTree = "<group>"; };
-		DA797F9125A4B142003C28FF /* JinnLockIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinnLockIndicator.m; sourceTree = "<group>"; };
-		DA797F9225A4B142003C28FF /* JinnLockTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinnLockTool.h; sourceTree = "<group>"; };
-		DA797F9325A4B142003C28FF /* JinnLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinnLockViewController.h; sourceTree = "<group>"; };
-		DA797F9425A4B142003C28FF /* JinnLockCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinnLockCircle.m; sourceTree = "<group>"; };
 		DA797F9625A4B142003C28FF /* YCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMenuView.h; sourceTree = "<group>"; };
 		DA797F9725A4B142003C28FF /* YCMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMenuView.m; sourceTree = "<group>"; };
 		DA797F9925A4B142003C28FF /* OYCountDownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYCountDownManager.m; sourceTree = "<group>"; };
@@ -637,7 +618,6 @@
 			isa = PBXGroup;
 			children = (
 				DA797F3925A4B141003C28FF /* AttributedStringTool */,
-				DA797F2E25A4B141003C28FF /* AuthorizationUtills */,
 				DA797F2725A4B141003C28FF /* DES */,
 				DA797F3C25A4B141003C28FF /* FileTool */,
 				DA797F2625A4B141003C28FF /* FMCoreTools.h */,
@@ -659,15 +639,6 @@
 				DA797F2D25A4B141003C28FF /* NSData+AES128.m */,
 			);
 			path = DES;
-			sourceTree = "<group>";
-		};
-		DA797F2E25A4B141003C28FF /* AuthorizationUtills */ = {
-			isa = PBXGroup;
-			children = (
-				DA797F2F25A4B141003C28FF /* AuthorizationUtills.h */,
-				DA797F3025A4B141003C28FF /* AuthorizationUtills.m */,
-			);
-			path = AuthorizationUtills;
 			sourceTree = "<group>";
 		};
 		DA797F3225A4B141003C28FF /* GetImgBase64String */ = {
@@ -719,7 +690,6 @@
 				DA797F7325A4B141003C28FF /* FMSwipe */,
 				DA797F7625A4B141003C28FF /* FMLeftSlideBaseView */,
 				DA797F7925A4B141003C28FF /* XLPageViewController */,
-				DA797F8925A4B142003C28FF /* JinnLock */,
 				DA797F9525A4B142003C28FF /* YCMenuView(类似QQ右上角Pop) */,
 				DA797F9825A4B142003C28FF /* OYCountDownManager(Cell倒计时) */,
 				DA797F9B25A4B142003C28FF /* SegmentViewController(分页控制器) */,
@@ -853,24 +823,6 @@
 				DA797F8525A4B142003C28FF /* XLPageViewControllerConfig.h */,
 			);
 			path = XLPageViewController;
-			sourceTree = "<group>";
-		};
-		DA797F8925A4B142003C28FF /* JinnLock */ = {
-			isa = PBXGroup;
-			children = (
-				DA797F8A25A4B142003C28FF /* JinnLockIndicator.h */,
-				DA797F8B25A4B142003C28FF /* JinnLockSudoko.m */,
-				DA797F8C25A4B142003C28FF /* JinnLockTool.m */,
-				DA797F8D25A4B142003C28FF /* JinnLockCircle.h */,
-				DA797F8E25A4B142003C28FF /* JinnLockViewController.m */,
-				DA797F8F25A4B142003C28FF /* JinnLockConfig.h */,
-				DA797F9025A4B142003C28FF /* JinnLockSudoko.h */,
-				DA797F9125A4B142003C28FF /* JinnLockIndicator.m */,
-				DA797F9225A4B142003C28FF /* JinnLockTool.h */,
-				DA797F9325A4B142003C28FF /* JinnLockViewController.h */,
-				DA797F9425A4B142003C28FF /* JinnLockCircle.m */,
-			);
-			path = JinnLock;
 			sourceTree = "<group>";
 		};
 		DA797F9525A4B142003C28FF /* YCMenuView(类似QQ右上角Pop) */ = {
@@ -1408,7 +1360,6 @@
 				DA797FE125A4B142003C28FF /* CBDNavigationController.m in Sources */,
 				DA7980A325A4B7D1003C28FF /* FMHomeViewController.m in Sources */,
 				DA79800225A4B142003C28FF /* HMTextView.m in Sources */,
-				DA797FF425A4B142003C28FF /* AuthorizationUtills.m in Sources */,
 				DA797FE725A4B142003C28FF /* UIView+EasyShowExt.m in Sources */,
 				DA797FE825A4B142003C28FF /* EasyShowLodingView.m in Sources */,
 				DAF69E0325ADE09E00ADE9E9 /* NSString+Size.m in Sources */,
@@ -1423,8 +1374,6 @@
 				DA797FF625A4B142003C28FF /* GetImgBase64String.m in Sources */,
 				DA79800825A4B142003C28FF /* MSSBrowseActionSheet.m in Sources */,
 				DA797FE225A4B142003C28FF /* FMButton.m in Sources */,
-				DA79801E25A4B142003C28FF /* JinnLockIndicator.m in Sources */,
-				DA79801D25A4B142003C28FF /* JinnLockViewController.m in Sources */,
 				DAFE710725A4A4A90057EED2 /* ViewController.m in Sources */,
 				DA79802425A4B142003C28FF /* SDWaitingView.m in Sources */,
 				DA79800B25A4B142003C28FF /* MSSBrowseBaseViewController.m in Sources */,
@@ -1479,7 +1428,6 @@
 				DA797FE525A4B142003C28FF /* EasyShowLabel.m in Sources */,
 				DA79802225A4B142003C28FF /* SegmentViewController.m in Sources */,
 				DA79801925A4B142003C28FF /* XLPageViewControllerUtil.m in Sources */,
-				DA79801F25A4B142003C28FF /* JinnLockCircle.m in Sources */,
 				DA1AA95A25B09373000C660E /* FMAlertView.m in Sources */,
 				DA79800625A4B142003C28FF /* MSSBrowseCollectionViewCell.m in Sources */,
 				DA797FE025A4B142003C28FF /* FMBaseCollectionViewCell.m in Sources */,
@@ -1499,7 +1447,6 @@
 				DA79800C25A4B142003C28FF /* MSSBrowseZoomScrollView.m in Sources */,
 				DA1AA95925B09373000C660E /* FMAlertSheetView.m in Sources */,
 				DA797FD925A4B142003C28FF /* FMBaseButton.m in Sources */,
-				DA79801B25A4B142003C28FF /* JinnLockSudoko.m in Sources */,
 				DA797FD725A4B142003C28FF /* FMBaseModel.m in Sources */,
 				DA797FFF25A4B142003C28FF /* StretchHeaderTB.m in Sources */,
 				DA79800D25A4B142003C28FF /* MSSBrowseRemindView.m in Sources */,
@@ -1507,7 +1454,6 @@
 				DA797FDB25A4B142003C28FF /* FMBaseViewController.m in Sources */,
 				DA797FEE25A4B142003C28FF /* NSArray+Sudoku.m in Sources */,
 				DA988F6425AF198F00BE313C /* FMNewsTableViewCell.m in Sources */,
-				DA79801C25A4B142003C28FF /* JinnLockTool.m in Sources */,
 				DA79802E25A4B142003C28FF /* FMRightSlideBaseView.m in Sources */,
 				DA79800425A4B142003C28FF /* MSSBrowseLoadingImageView.m in Sources */,
 				DA797FFC25A4B142003C28FF /* FMPageControl.m in Sources */,
@@ -1685,6 +1631,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = XDL763DT9K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1692,11 +1639,12 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Client/PrefixHeader.pch";
 				INFOPLIST_FILE = Client/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1712,6 +1660,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = XDL763DT9K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1719,11 +1668,12 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Client/PrefixHeader.pch";
 				INFOPLIST_FILE = Client/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
