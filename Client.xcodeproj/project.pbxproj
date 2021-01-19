@@ -19,6 +19,12 @@
 		DA20081925B07B4A0059C251 /* FMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA20081725B07B4A0059C251 /* FMLoginViewController.xib */; };
 		DA2AC08125A74ADA008B1847 /* FMHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2AC07F25A74ADA008B1847 /* FMHomeTableViewCell.m */; };
 		DA2AC08225A74ADA008B1847 /* FMHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2AC08025A74ADA008B1847 /* FMHomeTableViewCell.xib */; };
+		DA35F63B25B7310A0024BDB9 /* market.json in Resources */ = {isa = PBXBuildFile; fileRef = DA35F63A25B7310A0024BDB9 /* market.json */; };
+		DA35F64225B733CE0024BDB9 /* FMMarketInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA35F64025B733CE0024BDB9 /* FMMarketInfoController.m */; };
+		DA35F64325B733CE0024BDB9 /* FMMarketInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA35F64125B733CE0024BDB9 /* FMMarketInfoController.xib */; };
+		DA65ECF825B72AB3008BE0B9 /* FMMarketTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA65ECF625B72AB3008BE0B9 /* FMMarketTableCell.m */; };
+		DA65ECF925B72AB3008BE0B9 /* FMMarketTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA65ECF725B72AB3008BE0B9 /* FMMarketTableCell.xib */; };
+		DA65ECFF25B72B86008BE0B9 /* FMMarketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA65ECFE25B72B86008BE0B9 /* FMMarketModel.m */; };
 		DA797FD525A4B142003C28FF /* FMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797EE325A4B141003C28FF /* FMTabBarController.m */; };
 		DA797FD725A4B142003C28FF /* FMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797EEB25A4B141003C28FF /* FMBaseModel.m */; };
 		DA797FD825A4B142003C28FF /* FMBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DA797EEC25A4B141003C28FF /* FMBaseObject.m */; };
@@ -174,6 +180,15 @@
 		DA2AC07E25A74ADA008B1847 /* FMHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHomeTableViewCell.h; sourceTree = "<group>"; };
 		DA2AC07F25A74ADA008B1847 /* FMHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHomeTableViewCell.m; sourceTree = "<group>"; };
 		DA2AC08025A74ADA008B1847 /* FMHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMHomeTableViewCell.xib; sourceTree = "<group>"; };
+		DA35F63A25B7310A0024BDB9 /* market.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = market.json; sourceTree = "<group>"; };
+		DA35F63F25B733CE0024BDB9 /* FMMarketInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMarketInfoController.h; sourceTree = "<group>"; };
+		DA35F64025B733CE0024BDB9 /* FMMarketInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMarketInfoController.m; sourceTree = "<group>"; };
+		DA35F64125B733CE0024BDB9 /* FMMarketInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMMarketInfoController.xib; sourceTree = "<group>"; };
+		DA65ECF525B72AB3008BE0B9 /* FMMarketTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMarketTableCell.h; sourceTree = "<group>"; };
+		DA65ECF625B72AB3008BE0B9 /* FMMarketTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMarketTableCell.m; sourceTree = "<group>"; };
+		DA65ECF725B72AB3008BE0B9 /* FMMarketTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMMarketTableCell.xib; sourceTree = "<group>"; };
+		DA65ECFD25B72B86008BE0B9 /* FMMarketModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMarketModel.h; sourceTree = "<group>"; };
+		DA65ECFE25B72B86008BE0B9 /* FMMarketModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMarketModel.m; sourceTree = "<group>"; };
 		DA797DC725A4ADD8003C28FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DA797EE225A4B141003C28FF /* FMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTabBarController.h; sourceTree = "<group>"; };
 		DA797EE325A4B141003C28FF /* FMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTabBarController.m; sourceTree = "<group>"; };
@@ -1030,6 +1045,15 @@
 				DA7980AB25A4B7F0003C28FF /* FMMarketViewController.h */,
 				DA7980AC25A4B7F0003C28FF /* FMMarketViewController.m */,
 				DA7980AD25A4B7F0003C28FF /* FMMarketViewController.xib */,
+				DA65ECF525B72AB3008BE0B9 /* FMMarketTableCell.h */,
+				DA65ECF625B72AB3008BE0B9 /* FMMarketTableCell.m */,
+				DA65ECF725B72AB3008BE0B9 /* FMMarketTableCell.xib */,
+				DA65ECFD25B72B86008BE0B9 /* FMMarketModel.h */,
+				DA65ECFE25B72B86008BE0B9 /* FMMarketModel.m */,
+				DA35F63A25B7310A0024BDB9 /* market.json */,
+				DA35F63F25B733CE0024BDB9 /* FMMarketInfoController.h */,
+				DA35F64025B733CE0024BDB9 /* FMMarketInfoController.m */,
+				DA35F64125B733CE0024BDB9 /* FMMarketInfoController.xib */,
 			);
 			path = Market;
 			sourceTree = "<group>";
@@ -1268,11 +1292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAFE711225A4A4A90057EED2 /* LaunchScreen.storyboard in Resources */,
+				DA65ECF925B72AB3008BE0B9 /* FMMarketTableCell.xib in Resources */,
 				DAF69F4B25ADEA7600ADE9E9 /* data.json in Resources */,
 				DAFE710F25A4A4A90057EED2 /* Assets.xcassets in Resources */,
 				DA79803025A4B142003C28FF /* Mbrx.xcassets in Resources */,
 				DA1AA94E25B08DCD000C660E /* FMRegisterViewController.xib in Resources */,
 				DA79800025A4B142003C28FF /* LCActionSheet.bundle in Resources */,
+				DA35F63B25B7310A0024BDB9 /* market.json in Resources */,
 				DA1AA95825B09373000C660E /* FMAlertView.xib in Resources */,
 				DA7980A425A4B7D1003C28FF /* FMHomeViewController.xib in Resources */,
 				DA7980AF25A4B7F0003C28FF /* FMMarketViewController.xib in Resources */,
@@ -1281,6 +1307,7 @@
 				DAFE710A25A4A4A90057EED2 /* Main.storyboard in Resources */,
 				DA7980BA25A4B7FC003C28FF /* FMNewsViewController.xib in Resources */,
 				DA7980C225A4B807003C28FF /* FMMineViewController.xib in Resources */,
+				DA35F64325B733CE0024BDB9 /* FMMarketInfoController.xib in Resources */,
 				DA79800E25A4B142003C28FF /* mss_browseLoading@3x.png in Resources */,
 				DA79801025A4B142003C28FF /* mss_browseLoading@2x.png in Resources */,
 				DA988F6525AF198F00BE313C /* FMNewsTableViewCell.xib in Resources */,
@@ -1382,6 +1409,7 @@
 				DAF69DFF25ADE09E00ADE9E9 /* ZFTableViewCellLayout.m in Sources */,
 				DA797FED25A4B142003C28FF /* MJRefresh+FooterManger.m in Sources */,
 				DA797FDA25A4B142003C28FF /* FMBaseTableViewCell.m in Sources */,
+				DA35F64225B733CE0024BDB9 /* FMMarketInfoController.m in Sources */,
 				DA79800A25A4B142003C28FF /* UIImage+MSSScale.m in Sources */,
 				DA988F8025AF298600BE313C /* WKWebView+BAKit.m in Sources */,
 				DA797FEA25A4B142003C28FF /* EasyShowOptions.m in Sources */,
@@ -1407,6 +1435,7 @@
 				DA7980B925A4B7FC003C28FF /* FMNewsViewController.m in Sources */,
 				DA2AC08125A74ADA008B1847 /* FMHomeTableViewCell.m in Sources */,
 				DA79800725A4B142003C28FF /* MSSBrowseModel.m in Sources */,
+				DA65ECF825B72AB3008BE0B9 /* FMMarketTableCell.m in Sources */,
 				DA79802925A4B142003C28FF /* HWDownSelectedView.m in Sources */,
 				DA1AA94D25B08DCD000C660E /* FMRegisterViewController.m in Sources */,
 				DAFE710D25A4A4A90057EED2 /* Client.xcdatamodeld in Sources */,
@@ -1430,6 +1459,7 @@
 				DA79801925A4B142003C28FF /* XLPageViewControllerUtil.m in Sources */,
 				DA1AA95A25B09373000C660E /* FMAlertView.m in Sources */,
 				DA79800625A4B142003C28FF /* MSSBrowseCollectionViewCell.m in Sources */,
+				DA65ECFF25B72B86008BE0B9 /* FMMarketModel.m in Sources */,
 				DA797FE025A4B142003C28FF /* FMBaseCollectionViewCell.m in Sources */,
 				DA797FEF25A4B142003C28FF /* Foundation+Log.m in Sources */,
 				DA797FF225A4B142003C28FF /* DESUtills.m in Sources */,

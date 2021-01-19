@@ -7,7 +7,6 @@
 //
 
 #import "BAWebViewController.h"
-#import <WebKit/WebKit.h>
 #import "WKWebView+BAKit.h"
 
 //#import "BAAlertController.h"
@@ -33,7 +32,6 @@
 
 @interface BAWebViewController ()
 
-@property(nonatomic, strong) WKWebView *webView;
 @property(nonatomic, strong) WKWebViewConfiguration *webConfig;
 @property(nonatomic, strong) UIProgressView *progressView;
 
@@ -60,39 +58,43 @@
     weakSelf(self);
     self.webView.ba_web_didStartBlock = ^(WKWebView *webView, WKNavigation *navigation) {
         
+        [FMCoreTools fm_showHudLoadingIndicator];
+        
 //
         NSLog(@"开始加载网页");
     };
     
     self.webView.ba_web_didFinishBlock = ^(WKWebView *webView, WKNavigation *navigation) {
         NSLog(@"加载网页结束");
+        [FMCoreTools fm_hidenHudIndicator];
+
         
         // WKWebview 禁止长按(超链接、图片、文本...)弹出效果
-        [webView ba_web_stringByEvaluateJavaScript:@"document.documentElement.style.webkitTouchCallout='none'" completionHandler:nil];
+//        [webView ba_web_stringByEvaluateJavaScript:@"document.documentElement.style.webkitTouchCallout='none'" completionHandler:nil];
     };
     
     self.webView.ba_web_isLoadingBlock = ^(BOOL isLoading, CGFloat progress) {
         
         
-        [self ba_web_progressShow];
-        self.progressView.progress = progress;
-        if (self.progressView.progress == 1.0f)
-        {
-            [self ba_web_progressHidden];
-        }
+//        [self ba_web_progressShow];
+//        self.progressView.progress = progress;
+//        if (self.progressView.progress == 1.0f)
+//        {
+//            [self ba_web_progressHidden];
+//        }
     };
-    
-    self.webView.ba_web_getTitleBlock = ^(NSString *title) {
-        
-        
-        // 获取当前网页的 title
-        self.title = title;
-    };
-    
-    self.webView.ba_web_getCurrentUrlBlock = ^(NSURL * _Nonnull currentUrl) {
-        
-        self.ba_web_currentUrl = currentUrl;
-    };
+//    
+//    self.webView.ba_web_getTitleBlock = ^(NSString *title) {
+//        
+//        
+//        // 获取当前网页的 title
+//        self.title = title;
+//    };
+//    
+//    self.webView.ba_web_getCurrentUrlBlock = ^(NSURL * _Nonnull currentUrl) {
+//        
+//        self.ba_web_currentUrl = currentUrl;
+//    };
 }
 
 #pragma mark - 修改 navigator.userAgent

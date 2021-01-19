@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, strong) UIColor * _Nullable ba_web_progressTintColor;
 @property(nonatomic, strong) UIColor *ba_web_progressTrackTintColor;
+@property(nonatomic, strong) WKWebView *webView;
 
 /**
  *  加载一个 webview
