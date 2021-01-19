@@ -61,11 +61,11 @@ proNSMutableArrayType(FMNewsModel, dataArray)
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     [self.backBanner addSubview:self.banner];
+    [self setUI];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self setUI];
 }
 
 

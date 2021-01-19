@@ -123,6 +123,7 @@
 		DA988F6525AF198F00BE313C /* FMNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA988F6325AF198F00BE313C /* FMNewsTableViewCell.xib */; };
 		DA988F8025AF298600BE313C /* WKWebView+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA988F7C25AF298600BE313C /* WKWebView+BAKit.m */; };
 		DA988F8125AF298600BE313C /* BAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA988F7F25AF298600BE313C /* BAWebViewController.m */; };
+		DAEEA88725B73D1700E704D9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEEA88625B73D1700E704D9 /* MainViewController.m */; };
 		DAF69D5525ADCB8200ADE9E9 /* FMHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF69D5425ADCB8200ADE9E9 /* FMHomeModel.m */; };
 		DAF69DFF25ADE09E00ADE9E9 /* ZFTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF69DF425ADE09E00ADE9E9 /* ZFTableViewCellLayout.m */; };
 		DAF69E0025ADE09E00ADE9E9 /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF69DF525ADE09E00ADE9E9 /* ZFTableData.m */; };
@@ -388,6 +389,8 @@
 		DA988F7D25AF298600BE313C /* BAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWebViewController.h; sourceTree = "<group>"; };
 		DA988F7E25AF298600BE313C /* WKWebView+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+BAKit.h"; sourceTree = "<group>"; };
 		DA988F7F25AF298600BE313C /* BAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAWebViewController.m; sourceTree = "<group>"; };
+		DAEEA88525B73D1700E704D9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DAEEA88625B73D1700E704D9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		DAF69D5325ADCB8100ADE9E9 /* FMHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMHomeModel.h; sourceTree = "<group>"; };
 		DAF69D5425ADCB8200ADE9E9 /* FMHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMHomeModel.m; sourceTree = "<group>"; };
 		DAF69DF325ADE09E00ADE9E9 /* ZFNotAutoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFNotAutoPlayViewController.h; sourceTree = "<group>"; };
@@ -1035,6 +1038,8 @@
 				DA2AC08025A74ADA008B1847 /* FMHomeTableViewCell.xib */,
 				DAF69D5325ADCB8100ADE9E9 /* FMHomeModel.h */,
 				DAF69D5425ADCB8200ADE9E9 /* FMHomeModel.m */,
+				DAEEA88525B73D1700E704D9 /* MainViewController.h */,
+				DAEEA88625B73D1700E704D9 /* MainViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -1456,6 +1461,7 @@
 				DA79802625A4B142003C28FF /* LYSideslipCell.m in Sources */,
 				DA797FE525A4B142003C28FF /* EasyShowLabel.m in Sources */,
 				DA79802225A4B142003C28FF /* SegmentViewController.m in Sources */,
+				DAEEA88725B73D1700E704D9 /* MainViewController.m in Sources */,
 				DA79801925A4B142003C28FF /* XLPageViewControllerUtil.m in Sources */,
 				DA1AA95A25B09373000C660E /* FMAlertView.m in Sources */,
 				DA79800625A4B142003C28FF /* MSSBrowseCollectionViewCell.m in Sources */,

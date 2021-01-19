@@ -34,11 +34,11 @@
 //    self.tabBar.backgroundColor = kBgTabbarColor;
 //    self.tabBar.barTintColor = kBgTabbarColor; stretching
 //    [self configSubVC:[NSClassFromString(@"FMPledgeViewController") new] title:@"质押" img:@"ic_home" selectImg:@"ic_home_press"];
-    [self configSubVC:[NSClassFromString(@"FMHomeViewController") new] title:@"首页" img:@"ic_home" selectImg:@"ic_home_press"];
+    [self configSubVC:[NSClassFromString(@"MainViewController") new] title:@"首页" img:@"ic_home" selectImg:@"ic_home_press"];
     [self configSubVC:[NSClassFromString(@"ZFNotAutoPlayViewController") new] title:@"课堂" img:@"ic_sort" selectImg:@"ic_sort_press"];
 //    [self configSubVC:[NSClassFromString(@"FMMarketViewController") new] title:@"行情" img:@"ic_sort" selectImg:@"ic_sort_press"];
 //    [self configSubVC:[NSClassFromString(@"FMNewsViewController") new] title:@"资讯" img:@"ic_ecology" selectImg:@"ic_ecology_press"];
-    [self configSubVC:[NSClassFromString(@"FMMarketViewController") new] title:@"资讯" img:@"ic_ecology" selectImg:@"ic_ecology_press"];
+    [self configSubVC:[NSClassFromString(@"FMMarketViewController") new] title:@"行情" img:@"ic_ecology" selectImg:@"ic_ecology_press"];
     [self configSubVC:[NSClassFromString(@"FMMineViewController") new] title:@"我的" img:@"ic_mine" selectImg:@"ic_mine_press"];
 
 }
